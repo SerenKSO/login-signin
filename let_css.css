@@ -1,0 +1,66 @@
+#left_side{
+	margin: 25px;
+	width: 500px;
+	height: 100%;
+	float: left;
+	background-color: black;
+}
+.left1{
+	margin: 25px;
+	width: 200px;
+	height: 100%;
+	float: left;
+	background-color: black;
+
+}
+#sag{
+	margin: 25px;
+	width: 500px;
+	height: 100%;
+	float: right;
+	background-color: purple;
+}
+.top{
+	margin: 25px;
+	width: calc(100%-25px);
+	height: 100px;
+	background-color: white;
+	opacity: 0.5;
+}
+#login{
+	float: right;
+	
+}
+.headers{
+	text-align: center;
+	padding-top:  25px;
+
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(img1.jpg);
+	background-size:cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+ h1{
+	text-align: center;
+	color: black;
+	opacity: 1.5;
+	font-size: 40px;
+
+}
+
+button{
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	height: 40px;
+	background:#ffcf0c;
+	font-size: 18px; 
+	
+}

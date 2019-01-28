@@ -1,0 +1,69 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(img1.jpg);
+	background-size:cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.signbox {
+	width: 25%;
+	height: 80%;
+	background: #000;
+	color: #fff;
+	top:50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 30px 30px;
+
+}
+
+.signbox h1{
+	text-align: left;
+	font-size: 42px;
+	border: none;
+	border-bottom: 1px solid #000;
+	color: #ffcf0c;
+	padding-bottom: 15px;
+}
+
+.signbox p{
+	text-align: left;
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #ffcf0c;
+}
+
+.signbox input[type="text"], input[type="password"]{
+	width: 100%;
+	height: 30px;
+	border: none;
+	border-bottom: 1px solid #000;
+	background:#000;
+	border-color:#ffcf0c;
+	font-size: 16px;
+	color: #fff;
+	
+}
+.signbox input[type="submit"]{
+	width: 100%;
+	height: 30px;
+	background-color: #ffcf0c;
+	color: #000;
+	margin-top: 25px;
+	border-radius: 20px;
+	border: none;
+	font-size: 16px;
+}
+
+.signbox a{
+	color: darkgrey;
+	font-size: 18px;
+	text-decoration: none;
+	line-height: 20px;
+	display: block;
+	padding-top: 10px;
+
+}
