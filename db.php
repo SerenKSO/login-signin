@@ -14,11 +14,12 @@
 		 $username==""|| $password==""){
 		 	echo "Lütfen boş alan bırakmanıyınız.";
 		} else{
-			$baglan = mysqli_connect('localhost', 'root', '', 'users');	
-			//mysql_select_db("users", $baglan) or die("Baglantı kurulamadı");	
 			error_reporting(0);
+			$baglan = mysql_connect('localhost', 'root', '', 'users');	
+			mysql_select_db("users", $baglan) or die("Baglantı kurulamadı");	
+			
 
-			$kayit = mysqli_query("INSERT INTO users (name, surname, email, username, password) VALUES ('$name', '$surname', '$email', '$username', '$password')");
+			$kayit = mysql_query("INSERT INTO users (name, surname, email, username, password) VALUES ('$name', '$surname', '$email', '$username', '$password')");
 			if($kayit){
 				echo "oldu";
 			}else{
